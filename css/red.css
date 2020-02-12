@@ -1,0 +1,17 @@
+body{
+	background: url("../img/s2.jpg");
+	background-attachment: fixed;//rellena la pagina con el fono de imagen
+}
+#logo{
+	
+	background: #CA3413;
+
+}
+#menu ul li:hover{
+	background: #CA3413;
+}
+.button-more{
+	
+	background: #CA3413;
+	
+}

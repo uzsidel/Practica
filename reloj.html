@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto en JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="css/red.css">
+<!--Slider-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<!--Moment-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>	
+<!--Mis scripts-->	
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+	<div id="change-theme">
+		<div id="to-green"></div>
+		<div id="to-red"></div>
+		<div id="to-blue"></div>
+	</div>
+	<!--Marco blanco -->
+	<section id="global">
+		<!--Cabezera -->
+		<header>
+			<div id="logo">
+				<h1>Proyecto JS</h1>
+			</div>
+			<div class="clearfix"></div>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reloj.html">Reloj</a></li>
+					<li><a href="about.html">Sobre mi</a></li>
+					<li><a href="">Conctacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		
+		<!--Marco blanco -->
+		<section id="content">
+			
+				<div id="box">
+			<!--Aqui se cargan el reloj-->
+			<div id="reloj"></div>
+
+				
+				</div>
+			<aside id="aside">
+				<div id="about">
+					<h4>quien soy?</h4>
+					<img src="img/3.jpg">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut mollis ligula.
+					</p>
+				</div>
+				<div id="login">
+					<h4>Acceder</h4>
+					<form>
+						<label>Nombre</label>
+						<input type="text" name="name" id="name">
+						<label>Correo</label>
+						<input type="text" name="email" id="email">
+						<label>Contraseña</label>
+						<input type="password" name="pw" >
+						<input type="submit" name="Entrar">
+					</form>
+				</div>
+			</aside>
+			<div class="clearfix"></div>
+		</section>
+	</section>
+	<footer>
+		Curso de Master en JavaScrip &copy
+		<a href="#" class="up">Subir</a>
+	</footer>
+</body>
+</html>
